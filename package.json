@@ -1,11 +1,24 @@
 {
   "name": "locus",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlokJoshi/locus.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AlokJoshi/locus/issues"
+  },
+  "homepage": "https://github.com/AlokJoshi/locus#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
