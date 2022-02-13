@@ -65,7 +65,8 @@ window.onload = function () {
   })
 
   document.addEventListener('mousemove',(e)=>{
-    let display = e.clientY<200?'block':'none'
+    console.log(e.clientY)
+    let display = e.clientY<400?'block':'none'
     document.getElementById('controls').style=`display:${display}`
   })
 }
